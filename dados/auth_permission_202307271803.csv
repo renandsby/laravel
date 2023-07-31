@@ -1,0 +1,708 @@
+"id","name","content_type_id","codename"
+1,Can add log entry,1,add_logentry
+2,Can change log entry,1,change_logentry
+3,Can delete log entry,1,delete_logentry
+4,Can view log entry,1,view_logentry
+5,Can add permission,2,add_permission
+6,Can change permission,2,change_permission
+7,Can delete permission,2,delete_permission
+8,Can view permission,2,view_permission
+9,Can add group,3,add_group
+10,Can change group,3,change_group
+11,Can delete group,3,delete_group
+12,Can view group,3,view_group
+13,Can add content type,4,add_contenttype
+14,Can change content type,4,change_contenttype
+15,Can delete content type,4,delete_contenttype
+16,Can view content type,4,view_contenttype
+17,Can add session,5,add_session
+18,Can change session,5,change_session
+19,Can delete session,5,delete_session
+20,Can view session,5,view_session
+21,Can add Usuário,6,add_customuser
+22,Can change Usuário,6,change_customuser
+23,Can delete Usuário,6,delete_customuser
+24,Can view Usuário,6,view_customuser
+25,Can add adolescente,7,add_adolescente
+26,Can change adolescente,7,change_adolescente
+27,Can delete adolescente,7,delete_adolescente
+28,Can view adolescente,7,view_adolescente
+29,Pode ver todos os adolescentes do Sistema,7,ver_todos
+30,Pode ver adolescentes lotados na mesma unidade,7,ver_da_unidade
+31,Pode editar todos os adolescentes do Sistema,7,editar_todos
+32,Pode editar adolescentes lotados na mesma unidade,7,editar_da_unidade
+33,Pode incluir adolescentes,7,incluir
+34,Can add endereco,8,add_endereco
+35,Can change endereco,8,change_endereco
+36,Can delete endereco,8,delete_endereco
+37,Can view endereco,8,view_endereco
+38,Can add familiar,9,add_familiar
+39,Can change familiar,9,change_familiar
+40,Can delete familiar,9,delete_familiar
+41,Can view familiar,9,view_familiar
+42,Can add telefone,10,add_telefone
+43,Can change telefone,10,change_telefone
+44,Can delete telefone,10,delete_telefone
+45,Can view telefone,10,view_telefone
+46,Can add observacao,11,add_observacao
+47,Can change observacao,11,change_observacao
+48,Can delete observacao,11,delete_observacao
+49,Can view observacao,11,view_observacao
+50,Can add historical telefone,12,add_historicaltelefone
+51,Can change historical telefone,12,change_historicaltelefone
+52,Can delete historical telefone,12,delete_historicaltelefone
+53,Can view historical telefone,12,view_historicaltelefone
+54,Can add historical observacao,13,add_historicalobservacao
+55,Can change historical observacao,13,change_historicalobservacao
+56,Can delete historical observacao,13,delete_historicalobservacao
+57,Can view historical observacao,13,view_historicalobservacao
+58,Can add historical foto,14,add_historicalfoto
+59,Can change historical foto,14,change_historicalfoto
+60,Can delete historical foto,14,delete_historicalfoto
+61,Can view historical foto,14,view_historicalfoto
+62,Can add historical familiar,15,add_historicalfamiliar
+63,Can change historical familiar,15,change_historicalfamiliar
+64,Can delete historical familiar,15,delete_historicalfamiliar
+65,Can view historical familiar,15,view_historicalfamiliar
+66,Can add historical endereco,16,add_historicalendereco
+67,Can change historical endereco,16,change_historicalendereco
+68,Can delete historical endereco,16,delete_historicalendereco
+69,Can view historical endereco,16,view_historicalendereco
+70,Can add historical documento anexo,17,add_historicaldocumentoanexo
+71,Can change historical documento anexo,17,change_historicaldocumentoanexo
+72,Can delete historical documento anexo,17,delete_historicaldocumentoanexo
+73,Can view historical documento anexo,17,view_historicaldocumentoanexo
+74,Can add historical anexo telefone,18,add_historicalanexotelefone
+75,Can change historical anexo telefone,18,change_historicalanexotelefone
+76,Can delete historical anexo telefone,18,delete_historicalanexotelefone
+77,Can view historical anexo telefone,18,view_historicalanexotelefone
+78,Can add historical anexo familiar,19,add_historicalanexofamiliar
+79,Can change historical anexo familiar,19,change_historicalanexofamiliar
+80,Can delete historical anexo familiar,19,delete_historicalanexofamiliar
+81,Can view historical anexo familiar,19,view_historicalanexofamiliar
+82,Can add historical anexo endereco,20,add_historicalanexoendereco
+83,Can change historical anexo endereco,20,change_historicalanexoendereco
+84,Can delete historical anexo endereco,20,delete_historicalanexoendereco
+85,Can view historical anexo endereco,20,view_historicalanexoendereco
+86,Can add historical adolescente,21,add_historicaladolescente
+87,Can change historical adolescente,21,change_historicaladolescente
+88,Can delete historical adolescente,21,delete_historicaladolescente
+89,Can view historical adolescente,21,view_historicaladolescente
+90,Can add foto,22,add_foto
+91,Can change foto,22,change_foto
+92,Can delete foto,22,delete_foto
+93,Can view foto,22,view_foto
+94,Can add documento anexo,23,add_documentoanexo
+95,Can change documento anexo,23,change_documentoanexo
+96,Can delete documento anexo,23,delete_documentoanexo
+97,Can view documento anexo,23,view_documentoanexo
+98,Can add anexo telefone,24,add_anexotelefone
+99,Can change anexo telefone,24,change_anexotelefone
+100,Can delete anexo telefone,24,delete_anexotelefone
+101,Can view anexo telefone,24,view_anexotelefone
+102,Can add anexo familiar,25,add_anexofamiliar
+103,Can change anexo familiar,25,change_anexofamiliar
+104,Can delete anexo familiar,25,delete_anexofamiliar
+105,Can view anexo familiar,25,view_anexofamiliar
+106,Can add anexo endereco,26,add_anexoendereco
+107,Can change anexo endereco,26,change_anexoendereco
+108,Can delete anexo endereco,26,delete_anexoendereco
+109,Can view anexo endereco,26,view_anexoendereco
+110,Can add historical servidor,27,add_historicalservidor
+111,Can change historical servidor,27,change_historicalservidor
+112,Can delete historical servidor,27,delete_historicalservidor
+113,Can view historical servidor,27,view_historicalservidor
+114,Can add servidor,28,add_servidor
+115,Can change servidor,28,change_servidor
+116,Can delete servidor,28,delete_servidor
+117,Can view servidor,28,view_servidor
+118,Pode ver servidores,28,ver
+119,Pode ver servidores lotados na mesma unidade,28,ver_da_unidade
+120,Pode editar servidores,28,editar
+121,Pode editar servidores lotados na mesma unidade,28,editar_da_unidade
+122,Pode incluir servidores,28,incluir
+123,Can add Entrada de Adolescente em Unidade,29,add_entradaadolescente
+124,Can change Entrada de Adolescente em Unidade,29,change_entradaadolescente
+125,Can delete Entrada de Adolescente em Unidade,29,delete_entradaadolescente
+126,Can view Entrada de Adolescente em Unidade,29,view_entradaadolescente
+127,Pode ver entradas de adolescentes em unidades,29,ver_entradas
+128,Pode ver entradas de adolescentes na unidade em que está lotado.,29,ver_entradas_da_unidade
+129,Pode ver chegadas previstas de adolescentes em unidades,29,ver_chegadas
+130,Pode ver saídas previstas de adolescentes em unidades,29,ver_saidas
+131,Pode editar entradas de adolescentes,29,editar_entradas
+132,Pode editar entradas de adolescentes vinculados na mesma unidade,29,editar_entradas_da_unidade
+133,Pode editar chegadas previstas de adolescentes em unidades,29,editar_chegadas
+134,Pode editar saídas previstas de adolescentes em unidades,29,editar_saidas
+135,Pode incluir adolescentes em qualquer unidade,29,incluir_entradas
+136,Pode incluir adolescentes na unidade em que está lotado,29,incluir_entradas_na_unidade
+137,Pode remover adolescentes de qualquer unidade,29,excluir_entradas
+138,Pode remover adolescentes da unidade em que está lotado,29,excluir_entradas_da_unidade
+139,Can add modulo,30,add_modulo
+140,Can change modulo,30,change_modulo
+141,Can delete modulo,30,delete_modulo
+142,Can view modulo,30,view_modulo
+143,Can add unidade,31,add_unidade
+144,Can change unidade,31,change_unidade
+145,Can delete unidade,31,delete_unidade
+146,Can view unidade,31,view_unidade
+147,Pode acessar o sistema de todas unidades,31,acessar_todas
+148,Pode acessar o sistema de todas unidades de Semiliberdade,31,acessar_todas_semiliberdades
+149,Pode acessar o sistema de todas unidades de Meio Aberto,31,acessar_todas_geamas
+150,Pode acessar o sistema de todas unidades de Internação,31,acessar_todas_internacoes
+151,Pode editar informações de unidades,31,editar_unidades
+152,Pode criar novas unidades,31,incluir_unidades
+153,Can add vaga unidade,32,add_vagaunidade
+154,Can change vaga unidade,32,change_vagaunidade
+155,Can delete vaga unidade,32,delete_vagaunidade
+156,Can view vaga unidade,32,view_vagaunidade
+157,Pode ver vagas de unidades,32,ver_vagas
+158,Pode editar vagas de unidades,32,editar_vagas
+159,Pode criar novas vagas em unidades,32,incluir_vagas
+160,Can add quarto,33,add_quarto
+161,Can change quarto,33,change_quarto
+162,Can delete quarto,33,delete_quarto
+163,Can view quarto,33,view_quarto
+164,Can add Medida Disciplinar',34,add_medidadisciplinar
+165,Can change Medida Disciplinar',34,change_medidadisciplinar
+166,Can delete Medida Disciplinar',34,delete_medidadisciplinar
+167,Can view Medida Disciplinar',34,view_medidadisciplinar
+168,Pode ver medidas disciplinares de adolescentes em unidades,34,ver_md
+169,Pode ver medidas disciplinares de adolescentes da unidade em que está lotado.,34,ver_md_da_unidade
+170,Pode editar medidas disciplinares de adolescentes,34,editar_md
+171,Pode editar medidas disciplinares de adolescentes da mesma unidade,34,editar_md_da_unidade
+172,Pode incluir medidas disciplinares para adolescentes em qualquer unidade,34,incluir_md
+173,Pode incluir medidas disciplinares para adolescentes da unidade em que está lotado,34,incluir_md_na_unidade
+174,Pode remover medidas disciplinares de adolescentes de qualquer unidade,34,excluir_md
+175,Pode remover medidas disciplinares de adolescentes da unidade em que está lotado,34,excluir_md_da_unidade
+176,Can add Medida de Adaptação,35,add_medidaadaptacao
+177,Can change Medida de Adaptação,35,change_medidaadaptacao
+681,Pode editar visitas,143,editar
+178,Can delete Medida de Adaptação,35,delete_medidaadaptacao
+179,Can view Medida de Adaptação,35,view_medidaadaptacao
+180,Pode ver medidas de adaptação de adolescentes em unidades,35,ver_ma
+181,Pode ver medidas de adaptação de adolescentes da unidade em que está lotado.,35,ver_ma_da_unidade
+182,Pode editar medidas de adaptação de adolescentes,35,editar_ma
+183,Pode editar medidas de adaptação de adolescentes da mesma unidade,35,editar_ma_da_unidade
+184,Pode incluir medidas de adaptação para adolescentes em qualquer unidade,35,incluir_ma
+185,Pode incluir medidas de adaptação para adolescentes da unidade em que está lotado,35,incluir_ma_na_unidade
+186,Pode remover medidas de adaptação de adolescentes de qualquer unidade,35,excluir_ma
+187,Pode remover medidas de adaptação de adolescentes da unidade em que está lotado,35,excluir_ma_da_unidade
+188,Can add historical unidade,36,add_historicalunidade
+189,Can change historical unidade,36,change_historicalunidade
+190,Can delete historical unidade,36,delete_historicalunidade
+191,Can view historical unidade,36,view_historicalunidade
+192,Can add historical quarto,37,add_historicalquarto
+193,Can change historical quarto,37,change_historicalquarto
+194,Can delete historical quarto,37,delete_historicalquarto
+195,Can view historical quarto,37,view_historicalquarto
+196,Can add historical modulo,38,add_historicalmodulo
+197,Can change historical modulo,38,change_historicalmodulo
+198,Can delete historical modulo,38,delete_historicalmodulo
+199,Can view historical modulo,38,view_historicalmodulo
+200,Can add historical Medida Disciplinar',39,add_historicalmedidadisciplinar
+201,Can change historical Medida Disciplinar',39,change_historicalmedidadisciplinar
+202,Can delete historical Medida Disciplinar',39,delete_historicalmedidadisciplinar
+203,Can view historical Medida Disciplinar',39,view_historicalmedidadisciplinar
+204,Can add historical Medida de Adaptação,40,add_historicalmedidaadaptacao
+205,Can change historical Medida de Adaptação,40,change_historicalmedidaadaptacao
+206,Can delete historical Medida de Adaptação,40,delete_historicalmedidaadaptacao
+207,Can view historical Medida de Adaptação,40,view_historicalmedidaadaptacao
+208,Can add historical Entrada de Adolescente em Unidade,41,add_historicalentradaadolescente
+209,Can change historical Entrada de Adolescente em Unidade,41,change_historicalentradaadolescente
+210,Can delete historical Entrada de Adolescente em Unidade,41,delete_historicalentradaadolescente
+211,Can view historical Entrada de Adolescente em Unidade,41,view_historicalentradaadolescente
+212,Can add historical anexo entrada,42,add_historicalanexoentrada
+213,Can change historical anexo entrada,42,change_historicalanexoentrada
+214,Can delete historical anexo entrada,42,delete_historicalanexoentrada
+215,Can view historical anexo entrada,42,view_historicalanexoentrada
+216,Can add anexo entrada,43,add_anexoentrada
+217,Can change anexo entrada,43,change_anexoentrada
+218,Can delete anexo entrada,43,delete_anexoentrada
+219,Can view anexo entrada,43,view_anexoentrada
+220,Can add Ação em Solicitação de Movimentação,44,add_acaosolicitacaomovimentacao
+221,Can change Ação em Solicitação de Movimentação,44,change_acaosolicitacaomovimentacao
+222,Can delete Ação em Solicitação de Movimentação,44,delete_acaosolicitacaomovimentacao
+223,Can view Ação em Solicitação de Movimentação,44,view_acaosolicitacaomovimentacao
+224,Can add Ato Infracional,45,add_atoinfracional
+225,Can change Ato Infracional,45,change_atoinfracional
+226,Can delete Ato Infracional,45,delete_atoinfracional
+227,Can view Ato Infracional,45,view_atoinfracional
+228,Can add cargo,46,add_cargo
+229,Can change cargo,46,change_cargo
+230,Can delete cargo,46,delete_cargo
+231,Can view cargo,46,view_cargo
+232,Can add Circunstância em Ocorrência,47,add_circunstanciaocorrencia
+233,Can change Circunstância em Ocorrência,47,change_circunstanciaocorrencia
+234,Can delete Circunstância em Ocorrência,47,delete_circunstanciaocorrencia
+235,Can view Circunstância em Ocorrência,47,view_circunstanciaocorrencia
+236,Can add cor,48,add_cor
+237,Can change cor,48,change_cor
+238,Can delete cor,48,delete_cor
+239,Can view cor,48,view_cor
+240,Can add Escolaridade,49,add_escolaridade
+241,Can change Escolaridade,49,change_escolaridade
+242,Can delete Escolaridade,49,delete_escolaridade
+243,Can view Escolaridade,49,view_escolaridade
+244,Can add Especialidade de Atendimento Psicossocial,50,add_especialidadeatendimentopsicossocial
+245,Can change Especialidade de Atendimento Psicossocial,50,change_especialidadeatendimentopsicossocial
+246,Can delete Especialidade de Atendimento Psicossocial,50,delete_especialidadeatendimentopsicossocial
+247,Can view Especialidade de Atendimento Psicossocial,50,view_especialidadeatendimentopsicossocial
+248,Can add Gênero,51,add_genero
+249,Can change Gênero,51,change_genero
+250,Can delete Gênero,51,delete_genero
+251,Can view Gênero,51,view_genero
+252,Can add Gravidade de Ocorrência,52,add_gravidadeinfracaoocorrencia
+253,Can change Gravidade de Ocorrência,52,change_gravidadeinfracaoocorrencia
+254,Can delete Gravidade de Ocorrência,52,delete_gravidadeinfracaoocorrencia
+255,Can view Gravidade de Ocorrência,52,view_gravidadeinfracaoocorrencia
+256,Can add Jornada de Trabalho,53,add_jornadatrabalho
+257,Can change Jornada de Trabalho,53,change_jornadatrabalho
+258,Can delete Jornada de Trabalho,53,delete_jornadatrabalho
+259,Can view Jornada de Trabalho,53,view_jornadatrabalho
+260,Can add medida socioeducativa,54,add_medidasocioeducativa
+261,Can change medida socioeducativa,54,change_medidasocioeducativa
+262,Can delete medida socioeducativa,54,delete_medidasocioeducativa
+263,Can view medida socioeducativa,54,view_medidasocioeducativa
+264,Can add Opção para 'Encaminhado para CRE'',55,add_opcaoencaminhadocre
+265,Can change Opção para 'Encaminhado para CRE'',55,change_opcaoencaminhadocre
+266,Can delete Opção para 'Encaminhado para CRE'',55,delete_opcaoencaminhadocre
+267,Can view Opção para 'Encaminhado para CRE'',55,view_opcaoencaminhadocre
+268,Can add Opção para 'Saber Ler?',56,add_opcaosabeler
+269,Can change Opção para 'Saber Ler?',56,change_opcaosabeler
+270,Can delete Opção para 'Saber Ler?',56,delete_opcaosabeler
+271,Can view Opção para 'Saber Ler?',56,view_opcaosabeler
+272,Can add Origem de Entrada em Unidade,57,add_origementradaunidade
+273,Can change Origem de Entrada em Unidade,57,change_origementradaunidade
+274,Can delete Origem de Entrada em Unidade,57,delete_origementradaunidade
+275,Can view Origem de Entrada em Unidade,57,view_origementradaunidade
+276,Can add Região,58,add_regiao
+277,Can change Região,58,change_regiao
+278,Can delete Região,58,delete_regiao
+279,Can view Região,58,view_regiao
+280,Can add Regulamento Definidor de Infrações,59,add_regulamentoinfracoes
+281,Can change Regulamento Definidor de Infrações,59,change_regulamentoinfracoes
+282,Can delete Regulamento Definidor de Infrações,59,delete_regulamentoinfracoes
+283,Can view Regulamento Definidor de Infrações,59,view_regulamentoinfracoes
+284,Can add Situação Escolar,60,add_situacaoescolar
+285,Can change Situação Escolar,60,change_situacaoescolar
+286,Can delete Situação Escolar,60,delete_situacaoescolar
+287,Can view Situação Escolar,60,view_situacaoescolar
+288,Can add Tipo de Anexo em Solicitação de Movimentação,61,add_tipoanexosolicitacaomovimentacao
+289,Can change Tipo de Anexo em Solicitação de Movimentação,61,change_tipoanexosolicitacaomovimentacao
+290,Can delete Tipo de Anexo em Solicitação de Movimentação,61,delete_tipoanexosolicitacaomovimentacao
+291,Can view Tipo de Anexo em Solicitação de Movimentação,61,view_tipoanexosolicitacaomovimentacao
+292,Can add Tipo de Atendimento Psicossocial,62,add_tipoatendimentopsicossocial
+293,Can change Tipo de Atendimento Psicossocial,62,change_tipoatendimentopsicossocial
+294,Can delete Tipo de Atendimento Psicossocial,62,delete_tipoatendimentopsicossocial
+295,Can view Tipo de Atendimento Psicossocial,62,view_tipoatendimentopsicossocial
+296,Can add Tipo de Atividade,63,add_tipoatividade
+297,Can change Tipo de Atividade,63,change_tipoatividade
+298,Can delete Tipo de Atividade,63,delete_tipoatividade
+299,Can view Tipo de Atividade,63,view_tipoatividade
+300,Can add Tipo de Decisão em Processo,64,add_tipodecisaoprocesso
+301,Can change Tipo de Decisão em Processo,64,change_tipodecisaoprocesso
+302,Can delete Tipo de Decisão em Processo,64,delete_tipodecisaoprocesso
+303,Can view Tipo de Decisão em Processo,64,view_tipodecisaoprocesso
+304,Can add Tipo de Entrada em Unidade,65,add_tipoentradaunidade
+305,Can change Tipo de Entrada em Unidade,65,change_tipoentradaunidade
+306,Can delete Tipo de Entrada em Unidade,65,delete_tipoentradaunidade
+307,Can view Tipo de Entrada em Unidade,65,view_tipoentradaunidade
+308,Can add Tipo de Medida Socioeducativa,66,add_tipomedida
+309,Can change Tipo de Medida Socioeducativa,66,change_tipomedida
+310,Can delete Tipo de Medida Socioeducativa,66,delete_tipomedida
+311,Can view Tipo de Medida Socioeducativa,66,view_tipomedida
+312,Can add Tipo de Origem,67,add_tipoorigem
+313,Can change Tipo de Origem,67,change_tipoorigem
+314,Can delete Tipo de Origem,67,delete_tipoorigem
+315,Can view Tipo de Origem,67,view_tipoorigem
+316,Can add Tipo de Processo,68,add_tipoprocesso
+317,Can change Tipo de Processo,68,change_tipoprocesso
+318,Can delete Tipo de Processo,68,delete_tipoprocesso
+319,Can view Tipo de Processo,68,view_tipoprocesso
+320,Can add Tipo de Rede de Apoio,69,add_tiporedeapoio
+321,Can change Tipo de Rede de Apoio,69,change_tiporedeapoio
+322,Can delete Tipo de Rede de Apoio,69,delete_tiporedeapoio
+323,Can view Tipo de Rede de Apoio,69,view_tiporedeapoio
+324,Can add Tipo de Responsável,70,add_tiporesponsavel
+325,Can change Tipo de Responsável,70,change_tiporesponsavel
+326,Can delete Tipo de Responsável,70,delete_tiporesponsavel
+327,Can view Tipo de Responsável,70,view_tiporesponsavel
+328,Can add Tipo de Risco,71,add_tiporisco
+329,Can change Tipo de Risco,71,change_tiporisco
+330,Can delete Tipo de Risco,71,delete_tiporisco
+331,Can view Tipo de Risco,71,view_tiporisco
+332,Can add Tipo de Saída em Unidade,72,add_tiposaidaunidade
+333,Can change Tipo de Saída em Unidade,72,change_tiposaidaunidade
+334,Can delete Tipo de Saída em Unidade,72,delete_tiposaidaunidade
+335,Can view Tipo de Saída em Unidade,72,view_tiposaidaunidade
+336,Can add Tipo de Unidade,73,add_tipounidade
+337,Can change Tipo de Unidade,73,change_tipounidade
+338,Can delete Tipo de Unidade,73,delete_tipounidade
+339,Can view Tipo de Unidade,73,view_tipounidade
+340,Can add tipo vaga unidade,74,add_tipovagaunidade
+341,Can change tipo vaga unidade,74,change_tipovagaunidade
+342,Can delete tipo vaga unidade,74,delete_tipovagaunidade
+343,Can view tipo vaga unidade,74,view_tipovagaunidade
+344,Can add Turno Escolar,75,add_turnoescolar
+345,Can change Turno Escolar,75,change_turnoescolar
+346,Can delete Turno Escolar,75,delete_turnoescolar
+347,Can view Turno Escolar,75,view_turnoescolar
+348,Can add vara,76,add_vara
+349,Can change vara,76,change_vara
+350,Can delete vara,76,delete_vara
+351,Can view vara,76,view_vara
+352,Can add Vínculo Familiar,77,add_vinculofamiliar
+353,Can change Vínculo Familiar,77,change_vinculofamiliar
+354,Can delete Vínculo Familiar,77,delete_vinculofamiliar
+355,Can view Vínculo Familiar,77,view_vinculofamiliar
+356,Can add uf,78,add_uf
+357,Can change uf,78,change_uf
+358,Can delete uf,78,delete_uf
+359,Can view uf,78,view_uf
+360,Can add Infração em Ocorrência,79,add_infracaoocorrencia
+361,Can change Infração em Ocorrência,79,change_infracaoocorrencia
+362,Can delete Infração em Ocorrência,79,delete_infracaoocorrencia
+363,Can view Infração em Ocorrência,79,view_infracaoocorrencia
+364,Can add cidade,80,add_cidade
+365,Can change cidade,80,change_cidade
+366,Can delete cidade,80,delete_cidade
+367,Can view cidade,80,view_cidade
+368,Can add bairro,81,add_bairro
+369,Can change bairro,81,change_bairro
+370,Can delete bairro,81,delete_bairro
+371,Can view bairro,81,view_bairro
+372,Can add processo,82,add_processo
+373,Can change processo,82,change_processo
+374,Can delete processo,82,delete_processo
+375,Can view processo,82,view_processo
+376,Pode ver processos,82,ver
+377,Pode ver processos de adolescentes vinculados na mesma unidade,82,ver_da_unidade
+378,Pode editar processos,82,editar
+379,Pode editar processos de adolescentes vinculados na mesma unidade,82,editar_da_unidade
+380,Pode incluir processos,82,incluir
+381,Can add historical processo,83,add_historicalprocesso
+382,Can change historical processo,83,change_historicalprocesso
+383,Can delete historical processo,83,delete_historicalprocesso
+384,Can view historical processo,83,view_historicalprocesso
+385,Can add historical decisao,84,add_historicaldecisao
+386,Can change historical decisao,84,change_historicaldecisao
+387,Can delete historical decisao,84,delete_historicaldecisao
+388,Can view historical decisao,84,view_historicaldecisao
+389,Can add historical anexo processo,85,add_historicalanexoprocesso
+390,Can change historical anexo processo,85,change_historicalanexoprocesso
+391,Can delete historical anexo processo,85,delete_historicalanexoprocesso
+392,Can view historical anexo processo,85,view_historicalanexoprocesso
+393,Can add decisao,86,add_decisao
+394,Can change decisao,86,change_decisao
+395,Can delete decisao,86,delete_decisao
+396,Can view decisao,86,view_decisao
+397,Can add anexo processo,87,add_anexoprocesso
+398,Can change anexo processo,87,change_anexoprocesso
+399,Can delete anexo processo,87,delete_anexoprocesso
+400,Can view anexo processo,87,view_anexoprocesso
+401,Can add Solicitação,88,add_solicitacao
+402,Can change Solicitação,88,change_solicitacao
+403,Can delete Solicitação,88,delete_solicitacao
+404,Can view Solicitação,88,view_solicitacao
+405,Ver Solicitações.,88,ver
+406,Editar Solicitações.,88,editar
+407,Incluir Solicitações.,88,incluir
+408,Excluir Solicitações.,88,excluir
+409,Can add historical Solicitação,89,add_historicalsolicitacao
+410,Can change historical Solicitação,89,change_historicalsolicitacao
+411,Can delete historical Solicitação,89,delete_historicalsolicitacao
+412,Can view historical Solicitação,89,view_historicalsolicitacao
+413,Can add historical anexo solicitacao,90,add_historicalanexosolicitacao
+414,Can change historical anexo solicitacao,90,change_historicalanexosolicitacao
+415,Can delete historical anexo solicitacao,90,delete_historicalanexosolicitacao
+416,Can view historical anexo solicitacao,90,view_historicalanexosolicitacao
+417,Can add anexo solicitacao,91,add_anexosolicitacao
+418,Can change anexo solicitacao,91,change_anexosolicitacao
+419,Can delete anexo solicitacao,91,delete_anexosolicitacao
+420,Can view anexo solicitacao,91,view_anexosolicitacao
+421,Can add anexo desvinculacao,92,add_anexodesvinculacao
+422,Can change anexo desvinculacao,92,change_anexodesvinculacao
+423,Can delete anexo desvinculacao,92,delete_anexodesvinculacao
+424,Can view anexo desvinculacao,92,view_anexodesvinculacao
+425,Can add anexo transferencia,93,add_anexotransferencia
+426,Can change anexo transferencia,93,change_anexotransferencia
+427,Can delete anexo transferencia,93,delete_anexotransferencia
+428,Can view anexo transferencia,93,view_anexotransferencia
+429,Can add anexo vinculacao,94,add_anexovinculacao
+430,Can change anexo vinculacao,94,change_anexovinculacao
+431,Can delete anexo vinculacao,94,delete_anexovinculacao
+432,Can view anexo vinculacao,94,view_anexovinculacao
+433,Can add Desvinculação,95,add_desvinculacao
+434,Can change Desvinculação,95,change_desvinculacao
+435,Can delete Desvinculação,95,delete_desvinculacao
+436,Can view Desvinculação,95,view_desvinculacao
+437,Ver Desvinculações,95,ver_desvinculacoes
+438,Editar Desvinculações,95,editar_desvinculacoes
+439,Criar Desvinculações,95,criar_desvinculacoes
+440,Deletar Desvinculações,95,deletar_desvinculacoes
+441,Can add historical anexo desvinculacao,96,add_historicalanexodesvinculacao
+442,Can change historical anexo desvinculacao,96,change_historicalanexodesvinculacao
+443,Can delete historical anexo desvinculacao,96,delete_historicalanexodesvinculacao
+444,Can view historical anexo desvinculacao,96,view_historicalanexodesvinculacao
+445,Can add historical anexo transferencia,97,add_historicalanexotransferencia
+446,Can change historical anexo transferencia,97,change_historicalanexotransferencia
+447,Can delete historical anexo transferencia,97,delete_historicalanexotransferencia
+448,Can view historical anexo transferencia,97,view_historicalanexotransferencia
+449,Can add historical anexo vinculacao,98,add_historicalanexovinculacao
+450,Can change historical anexo vinculacao,98,change_historicalanexovinculacao
+451,Can delete historical anexo vinculacao,98,delete_historicalanexovinculacao
+452,Can view historical anexo vinculacao,98,view_historicalanexovinculacao
+453,Can add historical Desvinculação,99,add_historicaldesvinculacao
+454,Can change historical Desvinculação,99,change_historicaldesvinculacao
+455,Can delete historical Desvinculação,99,delete_historicaldesvinculacao
+456,Can view historical Desvinculação,99,view_historicaldesvinculacao
+457,Can add historical Transferência,100,add_historicaltransferencia
+458,Can change historical Transferência,100,change_historicaltransferencia
+459,Can delete historical Transferência,100,delete_historicaltransferencia
+460,Can view historical Transferência,100,view_historicaltransferencia
+461,Can add historical Vinculação,101,add_historicalvinculacao
+462,Can change historical Vinculação,101,change_historicalvinculacao
+463,Can delete historical Vinculação,101,delete_historicalvinculacao
+464,Can view historical Vinculação,101,view_historicalvinculacao
+465,Can add Transferência,102,add_transferencia
+466,Can change Transferência,102,change_transferencia
+467,Can delete Transferência,102,delete_transferencia
+468,Can view Transferência,102,view_transferencia
+469,Ver Transferências,102,ver_transferencias
+470,Editar Transferências,102,editar_transferencias
+471,Criar Transferências,102,criar_transferencias
+472,Deletar Transferências,102,deletar_transferencias
+473,Can add Vinculação,103,add_vinculacao
+474,Can change Vinculação,103,change_vinculacao
+475,Can delete Vinculação,103,delete_vinculacao
+476,Can view Vinculação,103,view_vinculacao
+477,Ver Vinculações,103,ver_vinculacoes
+478,Editar Vinculações,103,editar_vinculacoes
+479,Criar Vinculações,103,criar_vinculacoes
+480,Deletar Vinculações,103,deletar_vinculacoes
+481,Can add Atendimento em Educação,104,add_atendimentoeducacao
+482,Can change Atendimento em Educação,104,change_atendimentoeducacao
+483,Can delete Atendimento em Educação,104,delete_atendimentoeducacao
+484,Can view Atendimento em Educação,104,view_atendimentoeducacao
+485,Can add historical Atendimento em Educação,105,add_historicalatendimentoeducacao
+486,Can change historical Atendimento em Educação,105,change_historicalatendimentoeducacao
+487,Can delete historical Atendimento em Educação,105,delete_historicalatendimentoeducacao
+488,Can view historical Atendimento em Educação,105,view_historicalatendimentoeducacao
+489,Can add historical anexo educacao,106,add_historicalanexoeducacao
+490,Can change historical anexo educacao,106,change_historicalanexoeducacao
+491,Can delete historical anexo educacao,106,delete_historicalanexoeducacao
+492,Can view historical anexo educacao,106,view_historicalanexoeducacao
+493,Can add anexo educacao,107,add_anexoeducacao
+494,Can change anexo educacao,107,change_anexoeducacao
+495,Can delete anexo educacao,107,delete_anexoeducacao
+496,Can view anexo educacao,107,view_anexoeducacao
+497,Can add risco,108,add_risco
+498,Can change risco,108,change_risco
+499,Can delete risco,108,delete_risco
+500,Can view risco,108,view_risco
+501,Can add historical risco,109,add_historicalrisco
+502,Can change historical risco,109,change_historicalrisco
+503,Can delete historical risco,109,delete_historicalrisco
+504,Can view historical risco,109,view_historicalrisco
+505,Can add historical anexo risco,110,add_historicalanexorisco
+506,Can change historical anexo risco,110,change_historicalanexorisco
+507,Can delete historical anexo risco,110,delete_historicalanexorisco
+508,Can view historical anexo risco,110,view_historicalanexorisco
+509,Can add anexo risco,111,add_anexorisco
+510,Can change anexo risco,111,change_anexorisco
+511,Can delete anexo risco,111,delete_anexorisco
+512,Can view anexo risco,111,view_anexorisco
+513,Can add anexo ocorrencia,112,add_anexoocorrencia
+514,Can change anexo ocorrencia,112,change_anexoocorrencia
+515,Can delete anexo ocorrencia,112,delete_anexoocorrencia
+516,Can view anexo ocorrencia,112,view_anexoocorrencia
+517,Can add historical anexo ocorrencia,113,add_historicalanexoocorrencia
+518,Can change historical anexo ocorrencia,113,change_historicalanexoocorrencia
+519,Can delete historical anexo ocorrencia,113,delete_historicalanexoocorrencia
+520,Can view historical anexo ocorrencia,113,view_historicalanexoocorrencia
+521,Can add historical Ocorrência,114,add_historicalocorrencia
+522,Can change historical Ocorrência,114,change_historicalocorrencia
+523,Can delete historical Ocorrência,114,delete_historicalocorrencia
+524,Can view historical Ocorrência,114,view_historicalocorrencia
+525,Can add Ocorrência,115,add_ocorrencia
+526,Can change Ocorrência,115,change_ocorrencia
+527,Can delete Ocorrência,115,delete_ocorrencia
+528,Can view Ocorrência,115,view_ocorrencia
+529,Pode ver ocorrências,115,ver
+530,Pode ver ocorrências da mesma unidade (inclui ocorrências C2/GESEG),115,ver_da_unidade
+531,Pode editar ocorrências,115,editar
+532,Pode editar ocorrências da mesma unidade (inclui ocorrências C2/GESEG),115,editar_da_unidade
+533,Pode incluir ocorrências,115,incluir
+534,Pode incluir ocorrências na mesma unidade (inclui ocorrências C2/GESEG),115,incluir_na_unidade
+535,Pode excluir ocorrências,115,excluir
+536,Pode excluir ocorrências da mesma unidade (inclui ocorrências C2/GESEG),115,excluir_da_unidade
+537,Can add Atendimento Sociopsicopedagógico,116,add_atendimentopsicossocial
+538,Can change Atendimento Sociopsicopedagógico,116,change_atendimentopsicossocial
+539,Can delete Atendimento Sociopsicopedagógico,116,delete_atendimentopsicossocial
+540,Can view Atendimento Sociopsicopedagógico,116,view_atendimentopsicossocial
+541,Pode ver todos os atendimentos,116,ver
+542,Pode editar todos os atendimentos,116,editar
+543,Pode incluir atendimentos,116,incluir
+544,Can add historical Atendimento Sociopsicopedagógico,117,add_historicalatendimentopsicossocial
+545,Can change historical Atendimento Sociopsicopedagógico,117,change_historicalatendimentopsicossocial
+546,Can delete historical Atendimento Sociopsicopedagógico,117,delete_historicalatendimentopsicossocial
+547,Can view historical Atendimento Sociopsicopedagógico,117,view_historicalatendimentopsicossocial
+548,Can add historical anexo atendimento,118,add_historicalanexoatendimento
+549,Can change historical anexo atendimento,118,change_historicalanexoatendimento
+550,Can delete historical anexo atendimento,118,delete_historicalanexoatendimento
+551,Can view historical anexo atendimento,118,view_historicalanexoatendimento
+552,Can add anexo atendimento,119,add_anexoatendimento
+553,Can change anexo atendimento,119,change_anexoatendimento
+554,Can delete anexo atendimento,119,delete_anexoatendimento
+555,Can view anexo atendimento,119,view_anexoatendimento
+556,Can add adolescente atividade,120,add_adolescenteatividade
+557,Can change adolescente atividade,120,change_adolescenteatividade
+558,Can delete adolescente atividade,120,delete_adolescenteatividade
+559,Can view adolescente atividade,120,view_adolescenteatividade
+560,Pode ver inscrições de adolescentes em atividades,120,ver_inscricoes
+561,Pode editar inscrições de adolescentes em atividades,120,editar_inscricoes
+562,Pode inscrever adolescentes em atividades,120,incluir_inscricoes
+563,Pode desinscrever adolescentes de atividades,120,excluir_inscricoes
+564,Can add anexo historico atividade,121,add_anexohistoricoatividade
+565,Can change anexo historico atividade,121,change_anexohistoricoatividade
+566,Can delete anexo historico atividade,121,delete_anexohistoricoatividade
+567,Can view anexo historico atividade,121,view_anexohistoricoatividade
+568,Can add atividade,122,add_atividade
+569,Can change atividade,122,change_atividade
+570,Can delete atividade,122,delete_atividade
+571,Can view atividade,122,view_atividade
+572,Pode ver atividades,122,ver
+573,Pode ver atividades da mesma unidade,122,ver_da_unidade
+574,Pode editar atividades,122,editar
+575,Pode editar atividades da mesma unidade,122,editar_da_unidade
+576,Pode incluir atividades,122,incluir
+577,Pode incluir atividades na mesma unidade,122,incluir_na_unidade
+578,Pode excluir atividades,122,excluir
+579,Pode excluir atividades da mesma unidade,122,excluir_da_unidade
+580,Can add historical adolescente atividade,123,add_historicaladolescenteatividade
+581,Can change historical adolescente atividade,123,change_historicaladolescenteatividade
+582,Can delete historical adolescente atividade,123,delete_historicaladolescenteatividade
+583,Can view historical adolescente atividade,123,view_historicaladolescenteatividade
+584,Can add historical anexo historico atividade,124,add_historicalanexohistoricoatividade
+585,Can change historical anexo historico atividade,124,change_historicalanexohistoricoatividade
+586,Can delete historical anexo historico atividade,124,delete_historicalanexohistoricoatividade
+587,Can view historical anexo historico atividade,124,view_historicalanexohistoricoatividade
+588,Can add historical atividade,125,add_historicalatividade
+589,Can change historical atividade,125,change_historicalatividade
+590,Can delete historical atividade,125,delete_historicalatividade
+591,Can view historical atividade,125,view_historicalatividade
+592,Can add historical historico atividade,126,add_historicalhistoricoatividade
+593,Can change historical historico atividade,126,change_historicalhistoricoatividade
+594,Can delete historical historico atividade,126,delete_historicalhistoricoatividade
+595,Can view historical historico atividade,126,view_historicalhistoricoatividade
+596,Can add historico atividade,127,add_historicoatividade
+597,Can change historico atividade,127,change_historicoatividade
+598,Can delete historico atividade,127,delete_historicoatividade
+599,Can view historico atividade,127,view_historicoatividade
+600,Pode ver idas/retornos de adolescentes em atividades,127,ver_historico
+601,Pode ver idas/retornos de adolescentes em atividades da mesma unidade,127,ver_historico_da_unidade
+602,Pode editar idas/retornos de adolescentes em atividades,127,editar_historico
+603,Pode editar idas/retornos de adolescentes em atividades da mesma unidade,127,editar_historico_da_unidade
+604,Pode criar agendamentos de adolescentes em atividades,127,agendar
+605,Pode enviar/retornar adolescentes para/de atividades,127,movimentar
+606,Pode excluir idas/retornos de adolescentes em atividades,127,excluir_historico
+607,Pode excluir idas/retornos de adolescentes em atividades da mesma unidade,127,excluir_historico_da_unidade
+608,Can add Request Log,128,add_requestlog
+609,Can change Request Log,128,change_requestlog
+610,Can delete Request Log,128,delete_requestlog
+611,Can view Request Log,128,view_requestlog
+612,Can add Acompanhamento,129,add_acompanhamento
+613,Can change Acompanhamento,129,change_acompanhamento
+614,Can delete Acompanhamento,129,delete_acompanhamento
+615,Can view Acompanhamento,129,view_acompanhamento
+616,Can add adolescente efetivo livro,130,add_adolescenteefetivolivro
+617,Can change adolescente efetivo livro,130,change_adolescenteefetivolivro
+618,Can delete adolescente efetivo livro,130,delete_adolescenteefetivolivro
+619,Can view adolescente efetivo livro,130,view_adolescenteefetivolivro
+620,Can add Efetivos de Abertura de Livros,131,add_efetivolivro
+621,Can change Efetivos de Abertura de Livros,131,change_efetivolivro
+622,Can delete Efetivos de Abertura de Livros,131,delete_efetivolivro
+623,Can view Efetivos de Abertura de Livros,131,view_efetivolivro
+624,Can add historical Acompanhamento,132,add_historicalacompanhamento
+625,Can change historical Acompanhamento,132,change_historicalacompanhamento
+626,Can delete historical Acompanhamento,132,delete_historicalacompanhamento
+627,Can view historical Acompanhamento,132,view_historicalacompanhamento
+628,Can add historical adolescente efetivo livro,133,add_historicaladolescenteefetivolivro
+629,Can change historical adolescente efetivo livro,133,change_historicaladolescenteefetivolivro
+630,Can delete historical adolescente efetivo livro,133,delete_historicaladolescenteefetivolivro
+631,Can view historical adolescente efetivo livro,133,view_historicaladolescenteefetivolivro
+632,Can add historical Efetivos de Abertura de Livros,134,add_historicalefetivolivro
+633,Can change historical Efetivos de Abertura de Livros,134,change_historicalefetivolivro
+634,Can delete historical Efetivos de Abertura de Livros,134,delete_historicalefetivolivro
+635,Can view historical Efetivos de Abertura de Livros,134,view_historicalefetivolivro
+636,Can add historical livro,135,add_historicallivro
+637,Can change historical livro,135,change_historicallivro
+638,Can delete historical livro,135,delete_historicallivro
+639,Can view historical livro,135,view_historicallivro
+640,Can add livro,136,add_livro
+641,Can change livro,136,change_livro
+642,Can delete livro,136,delete_livro
+643,Can view livro,136,view_livro
+644,Pode ver livro de módulos da mesma unidade,136,ver_livro_modulos
+645,Pode ver livro da mesma unidade (inclui livro C2/GESEG),136,ver_livro_c2
+646,Pode editar livro de módulos da mesma unidade,136,editar_livro_modulos
+647,Pode editar livro da mesma unidade (inclui livro C2/GESEG),136,editar_livro_c2
+648,Pode incluir livro em módulos da mesma unidade,136,incluir_livro_modulos
+649,Pode incluir livro na mesma unidade (inclui livro C2/GESEG),136,incluir_livro_c2
+650,Pode excluir livro em módulos da mesma unidade,136,excluir_livro_modulos
+651,Pode excluir livro da mesma unidade (inclui entradas em livro C2/GESEG),136,excluir_livro_c2
+652,Can add unidade de apoio,137,add_unidadedeapoio
+653,Can change unidade de apoio,137,change_unidadedeapoio
+654,Can delete unidade de apoio,137,delete_unidadedeapoio
+655,Can view unidade de apoio,137,view_unidadedeapoio
+656,Can add historical unidade de apoio,138,add_historicalunidadedeapoio
+657,Can change historical unidade de apoio,138,change_historicalunidadedeapoio
+658,Can delete historical unidade de apoio,138,delete_historicalunidadedeapoio
+659,Can view historical unidade de apoio,138,view_historicalunidadedeapoio
+660,Can add anexo pia,139,add_anexopia
+661,Can change anexo pia,139,change_anexopia
+662,Can delete anexo pia,139,delete_anexopia
+663,Can view anexo pia,139,view_anexopia
+664,Can add historical anexo pia,140,add_historicalanexopia
+665,Can change historical anexo pia,140,change_historicalanexopia
+666,Can delete historical anexo pia,140,delete_historicalanexopia
+667,Can view historical anexo pia,140,view_historicalanexopia
+668,Can add historical pia,141,add_historicalpia
+669,Can change historical pia,141,change_historicalpia
+670,Can delete historical pia,141,delete_historicalpia
+671,Can view historical pia,141,view_historicalpia
+672,Can add pia,142,add_pia
+673,Can change pia,142,change_pia
+674,Can delete pia,142,delete_pia
+675,Can view pia,142,view_pia
+676,Can add Visita,143,add_visita
+677,Can change Visita,143,change_visita
+678,Can delete Visita,143,delete_visita
+679,Can view Visita,143,view_visita
+680,Pode ver visitas,143,ver
+682,Pode registrar visitas,143,registrar
+683,Pode excluir visitas,143,excluir
+684,Can add pertence visita,144,add_pertencevisita
+685,Can change pertence visita,144,change_pertencevisita
+686,Can delete pertence visita,144,delete_pertencevisita
+687,Can view pertence visita,144,view_pertencevisita
+688,Can add historical Visita,145,add_historicalvisita
+689,Can change historical Visita,145,change_historicalvisita
+690,Can delete historical Visita,145,delete_historicalvisita
+691,Can view historical Visita,145,view_historicalvisita
+692,Can add historical pertence visita,146,add_historicalpertencevisita
+693,Can change historical pertence visita,146,change_historicalpertencevisita
+694,Can delete historical pertence visita,146,delete_historicalpertencevisita
+695,Can view historical pertence visita,146,view_historicalpertencevisita
+696,Can add historical Ligação,147,add_historicalligacao
+697,Can change historical Ligação,147,change_historicalligacao
+698,Can delete historical Ligação,147,delete_historicalligacao
+699,Can view historical Ligação,147,view_historicalligacao
+700,Can add Ligação,148,add_ligacao
+701,Can change Ligação,148,change_ligacao
+702,Can delete Ligação,148,delete_ligacao
+703,Can view Ligação,148,view_ligacao
+704,Pode ver ligacoes,148,ver
+705,Pode editar ligacoes,148,editar
+706,Pode registrar ligacoes,148,registrar
+707,Pode excluir ligacoes,148,excluir
