@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use App\Http\Requests\StoreUpdateSupports;
 use App\Models\Support;
 use Illuminate\Http\Request;
 
@@ -36,13 +37,18 @@ class SupportController extends Controller
         return view('admin/supports/create');
     }
 
-    public function store(Request $request, Support $support)
+
+    // public function store(Request $request, Support $support)
+    // Para validar retorna o requesto support de validação
+    public function store(StoreUpdateSupports $request, Support $support)
     {
 
         // dd($request->only(['body']));
         // pega apenas um valor específico pode ser array com os campos
         // ou chamar direto $request->body
-        $data = $request->all();
+        // $data = $request->all();
+        //muda para pegar só os dados validados
+        $data = $request->validated();
         $data['status'] = 'a';
         $support->create($data);
 
@@ -72,7 +78,9 @@ class SupportController extends Controller
         // $support->body = $request->body;
         // $support->save();
 
-        $support->update($request->only(['subject','body']));
+        // $support->update($request->only(['subject','body']));
+        //pegar apenas os dados validados
+        $support->update($request->validated());
 
         return redirect()->route('supports.index');
     }
