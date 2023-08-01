@@ -1,8 +1,8 @@
 <?php
 namespace App\Repositories;
 
-use App\DTO\CreateSupportDTO;
-use App\DTO\UpdateSupportDTO;
+use App\DTO\Support\CreateSupportDTO;
+use App\DTO\Support\UpdateSupportDTO;
 use App\Enums\SupportStatus;
 use App\Models\Support;
 use App\Repositories\SupportRepositoryInterface;
