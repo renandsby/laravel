@@ -5,8 +5,9 @@ namespace App\Http\Controllers\Admin;
 use App\DTO\CreateSupportDTO;
 use App\DTO\UpdateSupportDTO;
 use App\Http\Controllers\Controller;
+use App\Http\Requests\StoreUpdateSupports;
 use App\Models\Support;
-use App\Srevices\SupportService;
+use App\Services\SupportService;
 use Illuminate\Http\Request;
 
 class SupportController extends Controller
@@ -22,9 +23,9 @@ class SupportController extends Controller
 
         // $support = new Support();
         $supports = $this->service->getAll($request->filter);
-
-        $xss = '<script>alert("sou um hacker");</script>';
-        return view('admin/supports/index', compact('supports', 'xss'));
+        $supports = Support::paginate();
+        // $xss = '<script>alert("sou um hacker");</script>';
+        return view('admin/supports/index', compact('supports'));
     }
 
     public function show(string $id)
@@ -45,7 +46,7 @@ class SupportController extends Controller
         return view('admin/supports/create');
     }
 
-    public function store(StoreUpdateSupport $request, Support $support)
+    public function store(StoreUpdateSupports $request, Support $support)
     {
 
         // dd($request->only(['body']));
@@ -74,7 +75,7 @@ class SupportController extends Controller
 
     }
 
-    public function update(StoreUpdateSupport $request, Support $support, string $id)
+    public function update(StoreUpdateSupports $request, Support $support, string $id)
     {
 
         $support = $this->service->update(
